@@ -1,7 +1,8 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
-import { Card } from '../src/components/Cards'
+import { Card, ColoredCard } from '../src/components/Cards'
 import icon from '../src/assets/icon1.svg';
+import '../src/components/ComponentsStyles.css'
 
 export default {
   title: 'card',
@@ -9,12 +10,13 @@ export default {
 
 
 export const card = () => (
-  <div style={{ backgroundColor: '#103047', color: 'white', height: '100vh' }}>
+  <div className="UI-Section-content">
     <Card>hello</Card>
-    <Card>
-      <span><img src={icon}></img></span>
-      hello
-      </Card>
+    <ColoredCard>
+      <div><img src={icon}></img></div>
+    <h4>Aerobic / 
+Anaerobic Stats</h4>  
+      </ColoredCard>
   </div>
 
 );

@@ -9,7 +9,7 @@ export const Title = styled.h1`
   padding: 15px;
 `;
 
-export const Buttonbtn = styled.button`
+export const Button = styled.button`
   font-size: 1em;
   margin: 0em 1em;
   padding: 0.5em 1em;

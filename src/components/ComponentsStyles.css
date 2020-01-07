@@ -3,22 +3,34 @@ body{
   font-weight: normal;
 }
 
-.Bluebtn  {
-  background-color: #0080FF;
+.UI-Section-content{
+  background-color: #103047;
+  color: white;
+  height: 100vh;
+  padding: 15px;
 }
 
-.Orangebtn  {
-  background-color: #FF9D00;
-  color: aliceblue;
-}
+/* Start Button Styles */
 
-.Outlinebtn  {
-  background-color: transparent;
-  color: aliceblue;
-  border: 1px solid #fff;
-}
+  .Bluebtn  {
+    background-color: #0080FF;
+  }
 
-.Largebtn{
-  font-size: 18px;
-  padding: .8em 1.5em;
-}
+  .Orangebtn  {
+    background-color: #FF9D00;
+    color: aliceblue;
+  }
+
+  .Outlinebtn  {
+    background-color: transparent;
+    color: aliceblue;
+    border: 1px solid #fff;
+  }
+
+  .Largebtn{
+    font-size: 18px;
+    padding: .8em 1.5em;
+  }
+
+/* End Button Styles */
+
