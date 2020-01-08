@@ -23,7 +23,7 @@ export const AllButtons = () => (
 
     <div className="medium-Buttons-section">
       <Title>Medium Buttons</Title>
-      <Button className='Primary' onClick={action('clicked')}>Dafult</Button>
+      <Button onClick={action('clicked')}>Dafult</Button>
       <Button className='Orangebtn' onClick={action('clicked')} >secondary</Button>
       <Button className='Outlinebtn' onClick={action('clicked')} >Outline</Button>
     </div>
