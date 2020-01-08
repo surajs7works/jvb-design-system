@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import "typeface-roboto";
+//import "typeface-roboto";
 
 
 export const Title = styled.h1`
