@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { action } from '@storybook/addon-actions';
 import { Colortile } from '../src/components/DesignSys'
 import icon from '../src/assets/icon1.svg';
 import '../src/components/ComponentsStyles.css'
+import Dropdownbtn from '../src/components/Dropdownbtn'
+
 
 export default {
   title: 'Design Guide',
@@ -95,6 +97,7 @@ export const Colors = () => (
 export const Typography = () => (
   <div>
     <h1>Fonts</h1>
+    
   </div>
 );
 

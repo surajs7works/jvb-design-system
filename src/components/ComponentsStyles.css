@@ -26,10 +26,31 @@ p{
     border: 1px solid #fff;
   }
 
+  .whitebtn  {
+    background-color: white;
+    color: black;
+
+  }
+
+
   .Largebtn{
     font-size: 18px;
     padding: .8em 1.5em;
   }
+
+
+  .dropdoen-menu-list{
+    background: white;
+    width: max-content;
+    padding: 15px;
+    color: #000;
+
+  }
+
+.dropdoen-menu-list li{
+  list-style: none;
+}
+
 
 /* End Button Styles */
 
