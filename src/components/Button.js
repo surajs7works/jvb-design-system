@@ -12,7 +12,7 @@ export const Title = styled.h1`
 
 export const Button = styled.button`
   font-size: 1em;
-  margin: 0em 1em;
+  // margin: 0em 1em;
   padding: 0.5em 1em;
 border: none; 
 border-radius: 3px;

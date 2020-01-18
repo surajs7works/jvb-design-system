@@ -42,13 +42,16 @@ p{
   .dropdoen-menu-list{
     background: white;
     width: max-content;
-    padding: 15px;
+    padding: 10px;
     color: #000;
+    border-radius: 3px;
+    margin-top: 6px;
 
   }
 
 .dropdoen-menu-list li{
   list-style: none;
+  padding: 8px 12px;
 }
 
 
