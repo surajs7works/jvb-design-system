@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-
-
-
 export const Card = styled.div`
   font-size: 1em;
   background:white;

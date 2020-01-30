@@ -16,6 +16,7 @@ export const card = () => (
       <div><img src={icon}></img></div>
     <h4>Aerobic / 
 Anaerobic Stats</h4>  
+
       </ColoredCard>
   </div>
 
