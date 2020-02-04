@@ -191,3 +191,39 @@ body{
     border-left: none;
     border-bottom: 15px solid transparent;
   }
+  /*Input styles*/
+  .InputForms{
+    height: 40px;
+    width: 400px;
+    border: 1px solid gray;
+    /* border-width: 1px; */
+    background-color: #000;
+    color: #fff;
+    padding-left: 13px;
+    font-size: 18px;
+  }
+  input[type="text"]::placeholder { /* Firefox, Chrome, Opera */ 
+    color:#fff; 
+} 
+/*select field*/
+.selectForm{
+  margin-left: 52%;
+    
+}
+
+.selectOption{
+  width: 35%;
+    padding: 13px;
+    height: 40px;
+    width: 400px;
+    border: 1px solid gray;
+    /* border-width: 1px; */
+    background-color: #000;
+    color: #fff;
+    margin-left: 52%;
+    
+}
+
+
+
+  
